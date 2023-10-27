@@ -1,8 +1,9 @@
+import Btn from "@/components/btn/Btn"
 
 export default function Home() {
   return (
-<>
-123
-</>
+    <>
+      <Btn/>
+    </>
   )
 }
