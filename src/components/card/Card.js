@@ -4,7 +4,10 @@ export default function Card() {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-center w-full h-screen bg-gray-100">
+            <div className="flex flex-col gap-12 items-center justify-center w-full h-screen bg-gray-100">
+            <h2 className="font-bold text-gray-700 text-3xl">
+                    Card component
+                </h2>
                     <div className="border w-[20%] overflow-hidden rounded shadow bg-white">
                         <Image src={"https://img.freepik.com/free-vector/cute-cat-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4148.jpg?size=626&ext=jpg&ga=GA1.1.1356523742.1695553187&semt=sph"}
                             width={200} height={200} alt="img" className="w-full" />
