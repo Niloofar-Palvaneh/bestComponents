@@ -15,3 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.bg-red-c{
+  background-color: rgba(58, 14, 180, 0.648);
+}

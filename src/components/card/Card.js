@@ -8,7 +8,7 @@ export default function Card() {
             <h2 className="font-bold text-gray-700 text-3xl">
                     Card component
                 </h2>
-                    <div className="border w-[20%] overflow-hidden rounded shadow bg-white">
+                    <div className="border w-[20%] overflow-hidden rounded shadow bg-white sm:w-[80%]">
                         <Image src={"https://img.freepik.com/free-vector/cute-cat-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4148.jpg?size=626&ext=jpg&ga=GA1.1.1356523742.1695553187&semt=sph"}
                             width={200} height={200} alt="img" className="w-full" />
                         <div className="flex flex-col  p-4 gap-4">
