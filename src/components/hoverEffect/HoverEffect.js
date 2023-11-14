@@ -25,6 +25,7 @@ export default function HoverEffect() {
                     </div>
                 </div>
             </div>
+           
         </>
     )
 }
